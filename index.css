@@ -3,10 +3,11 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-button, input[type="text"] {
+button,
+input[type="text"] {
   padding: 5px;
 }
 
@@ -14,6 +15,9 @@ button:hover {
   cursor: pointer;
 }
 
+form {
+  margin: 0.25em;
+}
 .hidden {
   display: none;
 }
